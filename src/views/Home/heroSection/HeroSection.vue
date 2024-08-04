@@ -11,7 +11,7 @@ export default {
 </script>
 <template>
   <div
-    class="flex md:flex-row flex-col-reverse items-center gap-[1vh] justify-between"
+    class="flex md:flex-row flex-col-reverse items-center gap-[3vh] justify-between"
   >
     <div class="md:w-3/4 flex flex-col items-start gap-[3vh]">
       <p class="text-[24px] leading-[36px] font-[400] text-lightGray">Hey!</p>
@@ -19,7 +19,7 @@ export default {
         <h1
           class="font-[600] text-[30px] md:text-[48px] md:leading-[62px] text-[#2F2F2F]"
         >
-          I'm <span class="text-titlesYellow">Ariene Rey</span>.
+          I'm <span class="text-titlesYellow">Ariene &nbsp;Rey</span>.
         </h1>
         <h1
           class="font-[600] text-[30px] md:text-[48px] md:leading-[62px] text-[#2F2F2F]"
@@ -88,10 +88,6 @@ export default {
         <Button title="Download CV" type="download" />
       </div>
     </div>
-    <img
-      class="aspect-[1/1] w-[45vw]"
-      src="../../../assets/Image.png"
-      alt="Hero"
-    />
+    <img class="w-[42vw]" src="../../../assets/Image.png" alt="Hero" />
   </div>
 </template>

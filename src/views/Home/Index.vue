@@ -33,6 +33,10 @@ export default {
     :class="{ showMenu: menuOpen }"
     class="hidden md:hidden flex-col items-center gap-[2vh] justify-center fixed transition-all duration-300 top-[0] h-screen w-full bg-bg"
   >
+    <i
+      @click="menuOpen = false"
+      class="fa-solid fa-xmark fa-2xl absolute top-[5vh] right-[4vh]"
+    ></i>
     <a
       :href="element"
       :class="{

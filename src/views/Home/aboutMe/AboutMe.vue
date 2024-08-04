@@ -1,14 +1,14 @@
 <script></script>
 <template>
   <div
-    class="bg-[#E9E9E9] rounded-[45px] flex md:flex-row flex-col gap-[5vh] p-[4vh] lg:p-[8vh]"
+    class="bg-[#E9E9E9] rounded-[45px] flex md:flex-row flex-col gap-[2vh] md:gap-[5vh] xl:gap-[10vh] p-[3vh] md:p-[4vh] xl:p-[10vh]"
   >
     <img
       src="../../../assets/Image (1).png"
-      class="lg:aspect-[350/408] md:w-[100%] object-cover h-auto rounded-[25px]"
+      class="md:w-[50%] object-cover h-auto rounded-[25px]"
     />
-    <div class="w-full flex flex-col justify-between gap-[3vh] lg:gap-0">
-      <div class="flex justify-between flex-col lg:flex-row">
+    <div class="w-full flex flex-col justify-between gap-[4vh] md:gap-[5vh]">
+      <div class="flex justify-between flex-col lg:flex-col xl:flex-row">
         <div>
           <h1
             class="font-[600] text-[36px] md:text-[72px] leading-[62px] text-[#2F2F2F]"
@@ -46,7 +46,7 @@
           Glad to Help You!
         </h1>
         <p
-          class="font-[300] text-[18px] md:text-[24px] md:leading-[45px] text-[#000] w-4/5"
+          class="font-[300] text-[18px] md:text-[24px] md:leading-[45px] text-[#000] w-full"
         >
           As a full-service digital designer, I work closely with my clients to
           define, design and develop transformative user experiences across all

@@ -11,12 +11,12 @@ export default {
     class="bg-titlesYellow rounded-[25px] flex lg:h-[300px] items-center justify-evenly lg:flex-row flex-col p-[2vh] gap-[2vh]"
   >
     <h1
-      class="font-[600] text-[30px] md:text-[48px] md:leading-[62px] text-[#fff] w-[70%] lg:w-1/4 text-center"
+      class="font-[600] text-[30px] text-center lg:text-start md:text-[48px] md:leading-[62px] text-[#fff] w-[70%] lg:w-1/3"
     >
       Interested working with me?
     </h1>
     <div
-      class="flex gap-[2vh] lg:gap-[5vh] lg:flex-row flex-col justify-evenly items-center"
+      class="flex gap-[2vh] lg:gap-[2vh] xl:flex-row flex-col justify-evenly items-center"
     >
       <Button text="Email Me" :isMail="true" />
       <Button text="See More Projects" />

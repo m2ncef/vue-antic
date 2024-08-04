@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row justify-between items-center h-[80px]">
+  <div class="flex flex-row justify-between items-center h-[100px]">
     <h1 class="font-[700] text-[22px] leading-[33px] text-bigTitle">
       Ariene Rey
     </h1>

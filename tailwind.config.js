@@ -12,7 +12,7 @@ export default {
       darkGray: "#2F2F2F",
     },
     spacing: {
-      desktop: "12vw",
+      desktop: "10vw",
     },
     fontFamily: {
       'poppins': ['Poppins', 'sans-serif'],

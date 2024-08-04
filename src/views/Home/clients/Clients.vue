@@ -1,9 +1,9 @@
 <template>
   <div
-    class="w-full flex flex-col justify-center items-center gap-[6vh] py-[8vh]"
+    class="w-full flex flex-col justify-center items-center gap-[7vh] h-screen md:h-[70vh] xl:h-screen"
   >
     <h1
-      class="font-[600] text-[32px] md:text-[48px] leading-[60px] text-[#fff] md:w-2/3 text-center"
+      class="font-[600] text-[32px] md:text-[48px] leading-[60px] text-[#fff] md:w-[50%] text-center"
     >
       We Are Loved By Users And Clients Worldwide
     </h1>
@@ -20,7 +20,7 @@
       pagination=".swiper-pagination"
       slides-per-view="2"
       space-between="50"
-      class="w-full flex h-[40vh] lg:h-[52vh]"
+      class="w-full flex h-[40vh] md:h-[30vh] xl:h-[60vh]"
     >
       <swiper-slide
         ><Testimonial
