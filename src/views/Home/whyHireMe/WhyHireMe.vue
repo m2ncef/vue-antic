@@ -1,4 +1,9 @@
 <script>
+import Image1 from "../../../assets/Image 01.png";
+import Image2 from "../../../assets/Rectangle.png";
+import Image3 from "../../../assets/Rectangle (1).png";
+import Image4 from "../../../assets/Rectangle (2).png";
+
 export default {
   components: {},
   data() {
@@ -8,25 +13,25 @@ export default {
           title: "Communicative",
           content:
             "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. ",
-          picture: "/src/assets/Image 01.png",
+          picture: Image1,
         },
         {
           title: "Professional",
           content:
             "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. ",
-          picture: "/src/assets/Rectangle.png",
+          picture: Image2,
         },
         {
           title: "Collaborative​",
           content:
             "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. ",
-          picture: "/src/assets/Rectangle (1).png",
+          picture: Image3,
         },
         {
           title: "Client’s Favourite",
           content:
             "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. ",
-          picture: "/src/assets/Rectangle (2).png",
+          picture: Image4,
         },
       ],
     };

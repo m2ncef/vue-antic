@@ -3,7 +3,7 @@
     class="bg-[#fff] flex flex-col gap-[3vh] justify-between rounded-br-[30px] rounded-bl-[30px] rounded-tl-[30px] p-[3vh] lg:p-[7vh]"
   >
     <p
-      class="text-[#151517] font-[400] text-[14px] lg:text-[24px] lg:leading-[36px] h-[14vh] lg:h-[20vh]"
+      class="text-[#151517] font-[400] text-[14px] xl:text-[24px] xl:leading-[36px] h-[14vh] lg:h-[20vh]"
     >
       {{ text }}
     </p>

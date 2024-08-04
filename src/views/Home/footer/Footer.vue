@@ -1,13 +1,17 @@
 <template>
   <div class="flex items-center gap-[3vh] justify-between w-full h-[160px]">
     <h1
-      class="font-[500] text-[20px] md:text-[36px] md:leading-[46px] text-[#2F2F2F] w-1/5"
+      class="w-[30%] text-left font-[500] text-[16px] md:text-[36px] md:leading-[46px] text-[#2F2F2F]"
     >
       Let's Connect
     </h1>
-    <img src="/src/assets/Social Icon.png" alt="Socials" class="w-1/5" />
+    <img
+      src="/src/assets/Social Icon.png"
+      alt="Socials"
+      class="w-full md:w-[10vw]"
+    />
     <h2
-      class="font-[500] text-[16px] md:text-[24px] md:leading-[36px] text-[#2F2F2F] flex gap-[2vh] items-center w-1/4"
+      class="w-[30%] font-[500] text-[16px] md:text-[24px] md:leading-[36px] text-[#2F2F2F] flex gap-[2vh] items-center justify-end"
     >
       Back to top
       <svg

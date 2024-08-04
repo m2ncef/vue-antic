@@ -1,14 +1,14 @@
 <script></script>
 <template>
   <div
-    class="bg-[#E9E9E9] rounded-[45px] flex lg:flex-row flex-col gap-[5vh] p-[4vh] lg:p-[8vh]"
+    class="bg-[#E9E9E9] rounded-[45px] flex md:flex-row flex-col gap-[5vh] p-[4vh] lg:p-[8vh]"
   >
     <img
       src="../../../assets/Image (1).png"
       class="lg:aspect-[350/408] md:w-[100%] object-cover h-auto rounded-[25px]"
     />
     <div class="w-full flex flex-col justify-between gap-[3vh] lg:gap-0">
-      <div class="flex justify-between flex-col md:flex-row">
+      <div class="flex justify-between flex-col lg:flex-row">
         <div>
           <h1
             class="font-[600] text-[36px] md:text-[72px] leading-[62px] text-[#2F2F2F]"
