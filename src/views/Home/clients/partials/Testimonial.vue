@@ -1,20 +1,20 @@
 <template>
   <div
-    class="bg-[#fff] flex flex-col gap-[3vh] justify-between rounded-br-[30px] rounded-bl-[30px] rounded-tl-[30px] p-[3vh] xl:p-[7vh]"
+    class="bg-[#fff] flex flex-col gap-[3vh] justify-between rounded-br-[30px] rounded-bl-[30px] rounded-tl-[30px] p-[3vh] lg:p-[7vh]"
   >
     <p
-      class="text-[#151517] font-[400] text-[14px] lg:text-[24px] md:leading-[36px] h-[15vh] md:h-[25vh]"
+      class="text-[#151517] font-[400] text-[14px] lg:text-[24px] lg:leading-[36px] h-[14vh] lg:h-[20vh]"
     >
       {{ text }}
     </p>
     <div
-      class="flex items-center gap-[2vh] justify-between flex-col md:flex-row"
+      class="flex items-center gap-[2vh] justify-between flex-col xl:flex-row"
     >
-      <div class="flex gap-[2vh]">
+      <div class="flex gap-[2vh] items-center">
         <img
           src="../../../../assets/Picture Profile.png"
           alt="PP"
-          class="w-[3vw] h-[3vw]"
+          class="w-[4vw] h-[4vw]"
         />
         <div class="flex flex-col">
           <h1 class="text-[#2F2F2F] font-[600] text-[16px] leading-[24px]">

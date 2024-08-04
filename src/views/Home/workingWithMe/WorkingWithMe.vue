@@ -8,15 +8,15 @@ export default {
 </script>
 <template>
   <div
-    class="bg-titlesYellow rounded-[25px] flex md:h-[300px] items-center justify-evenly md:flex-row flex-col py-[2vh]"
+    class="bg-titlesYellow rounded-[25px] flex lg:h-[300px] items-center justify-evenly lg:flex-row flex-col p-[2vh] gap-[2vh]"
   >
     <h1
-      class="font-[600] text-[32px] md:text-[48px] leading-[62px] text-[#fff] w-[70%] md:w-1/4 text-center"
+      class="font-[600] text-[30px] md:text-[48px] md:leading-[62px] text-[#fff] w-[70%] lg:w-1/4 text-center"
     >
       Interested working with me?
     </h1>
     <div
-      class="flex gap-[2vh] lg:gap-[7vh] lg:flex-row flex-col justify-evenly items-center"
+      class="flex gap-[2vh] lg:gap-[5vh] lg:flex-row flex-col justify-evenly items-center"
     >
       <Button text="Email Me" :isMail="true" />
       <Button text="See More Projects" />

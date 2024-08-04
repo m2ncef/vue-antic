@@ -83,7 +83,7 @@ export default {
           />
         </svg>
       </div>
-      <div class="flex gap-[2vh] md:flex-row flex-col">
+      <div class="flex gap-[2vh] sm:flex-row flex-col">
         <Button title="Mail Me" type="mail" />
         <Button title="Download CV" type="download" />
       </div>

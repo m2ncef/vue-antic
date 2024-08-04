@@ -41,7 +41,7 @@ export default {
     >
       Why Hire Me?
     </h1>
-    <div class="flex gap-[4vh] w-full flex-wrap">
+    <div class="flex gap-[4vh] w-full md:flex-nowrap flex-wrap">
       <div
         v-for="(advantage, index) in advantages"
         :key="index"
@@ -50,7 +50,7 @@ export default {
         <img class="aspect-[240/313]" :src="advantage.picture" :key="index" />
         <div class="flex flex-col items-center md:gap-[1vh]">
           <h1
-            class="font-[500] text-[18px] md:text-[24px] leading-[36px] text-[#2F2F2F] text-center"
+            class="font-[500] text-[18px] md:text-[1.8vw] md:leading-[36px] text-[#2F2F2F] text-center"
           >
             {{ advantage.title }}
           </h1>

@@ -20,7 +20,7 @@
       pagination=".swiper-pagination"
       slides-per-view="2"
       space-between="50"
-      class="w-full flex h-[40vh] md:h-[60vh]"
+      class="w-full flex h-[40vh] lg:h-[52vh]"
     >
       <swiper-slide
         ><Testimonial
