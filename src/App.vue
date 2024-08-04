@@ -8,7 +8,5 @@ export default {
 </script>
 
 <template>
-  <div class="px-desktop">
-    <Home />
-  </div>
+  <Home />
 </template>

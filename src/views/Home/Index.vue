@@ -4,25 +4,59 @@ import HeroSection from "./heroSection/HeroSection.vue";
 import AboutMe from "./aboutMe/AboutMe.vue";
 import RecentProjects from "./RecentProjects/RecentProjects.vue";
 import WhyHireMe from "./whyHireMe/WhyHireMe.vue";
+import WorkingWithMe from "./workingWithMe/WorkingWithMe.vue";
+import Clients from "./clients/Clients.vue";
+import Footer from "./footer/Footer.vue";
 
 export default {
+  data() {
+    return {
+      menuOpen: false,
+      navElements: ["Home", "About", "Project", "Contact"],
+      currentElement: window.location.pathname.split("/")[1] || "Home",
+    };
+  },
   components: {
     NavBar,
     HeroSection,
     AboutMe,
     RecentProjects,
     WhyHireMe,
+    WorkingWithMe,
+    Clients,
+    Footer,
   },
 };
 </script>
 <template>
-  <div class="flex flex-col gap-[3vh]">
-    <NavBar />
+  <div
+    :class="{ showMenu: menuOpen }"
+    class="hidden md:hidden flex-col items-center gap-[2vh] justify-center fixed transition-all duration-300 top-[0] h-screen w-full bg-bg"
+  >
+    <a
+      :href="element"
+      :class="{
+        selected: element === this.currentElement,
+      }"
+      v-for="element in navElements"
+      :key="element"
+      class="text-[16px] leading-[24px] tracking-[1px] font-[500] text-bigTitle"
+    >
+      {{ element }}
+    </a>
+  </div>
+  <div class="flex flex-col gap-[3vh] px-desktop">
+    <NavBar @toggle-menu="this.menuOpen = !this.menuOpen" />
     <div class="flex flex-col gap-[12vh]">
       <HeroSection />
       <AboutMe />
       <RecentProjects />
       <WhyHireMe />
+      <WorkingWithMe />
     </div>
+  </div>
+  <div class="flex flex-col items-center pt-[10vh]">
+    <Clients class="bg-[#6FC2C5] px-desktop" />
+    <Footer class="px-desktop" />
   </div>
 </template>

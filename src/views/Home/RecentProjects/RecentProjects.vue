@@ -8,24 +8,28 @@ export default {
 </script>
 <template>
   <div class="flex flex-col justify-between items-center gap-[5vh]">
-    <div class="flex gap-[1vh] w-full justify-between">
-      <h1 class="font-[600] text-[48px] leading-[62px] text-[#151517]">
+    <div class="flex gap-[1vh] w-full justify-between items-center">
+      <h1
+        class="font-[600] text-[32px] md:text-[48px] md:leading-[62px] text-[#151517]"
+      >
         Recent Projects
       </h1>
       <Button text="View More" />
     </div>
-    <div class="w-full flex justify-between gap-[4vh]">
+    <div class="w-full flex justify-between gap-[5vh]">
       <div class="w-fit flex flex-col gap-[1vh]">
         <img
           src="../../../assets/recentProjects.png"
-          class="aspect-[540/756]"
+          class="aspect-[540/756] h-[50vw] w-[40vw] object-cover rounded-[25px]"
         />
-        <h1 class="font-[600] text-[24px] leading-[36px] text-[#1C1C1C]">
+        <h1
+          class="font-[600] text-[20px] md:text-[24px] leading-[36px] text-[#1C1C1C] pt-[1vh]"
+        >
           UI Portfolio
         </h1>
-        <div class="flex gap-[10vh]">
+        <div class="flex flex-col md:flex-row md:gap-[10vh]">
           <h1
-            class="font-[500] text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
+            class="font-[500] text-[14px] md:text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
           >
             <svg
               width="18"
@@ -42,7 +46,7 @@ export default {
             View Study Case
           </h1>
           <h1
-            class="font-[500] text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
+            class="font-[500] text-[14px] md:text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
           >
             <svg
               width="20"
@@ -63,14 +67,16 @@ export default {
       <div class="w-fit flex flex-col gap-[1vh]">
         <img
           src="../../../assets/recentProjects1.png"
-          class="aspect-[540/756]"
+          class="aspect-[540/756] h-[50vw] w-[40vw] object-cover rounded-[25px]"
         />
-        <h1 class="font-[600] text-[24px] leading-[36px] text-[#1C1C1C]">
+        <h1
+          class="font-[600] text-[20px] md:text-[24px] leading-[36px] text-[#1C1C1C] pt-[1vh]"
+        >
           UI Portfolio
         </h1>
-        <div class="flex gap-[10vh]">
+        <div class="flex flex-col md:flex-row md:gap-[10vh]">
           <h1
-            class="font-[500] text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
+            class="font-[500] text-[14px] md:text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
           >
             <svg
               width="18"
@@ -87,7 +93,7 @@ export default {
             View Study Case
           </h1>
           <h1
-            class="font-[500] text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
+            class="font-[500] text-[14px] md:text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
           >
             <svg
               width="20"

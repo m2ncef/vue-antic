@@ -12,7 +12,11 @@ export default {
       darkGray: "#2F2F2F",
     },
     spacing: {
-      desktop: "10vw",
+      desktop: "12vw",
+    },
+    fontFamily: {
+      'poppins': ['Poppins', 'sans-serif'],
+      'libre': ['Libre Franklin', 'sans-serif'],
     }
   },
   plugins: [],

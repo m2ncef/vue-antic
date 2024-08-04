@@ -10,14 +10,20 @@ export default {
 };
 </script>
 <template>
-  <div class="flex flex-row items-center gap-[14vh]">
-    <div class="w-1/2 flex flex-col items-start gap-[3vh]">
+  <div
+    class="flex md:flex-row flex-col-reverse items-center gap-[1vh] justify-between"
+  >
+    <div class="md:w-3/4 flex flex-col items-start gap-[3vh]">
       <p class="text-[24px] leading-[36px] font-[400] text-lightGray">Hey!</p>
       <div>
-        <h1 class="font-[600] text-[48px] leading-[62px] text-[#2F2F2F]">
+        <h1
+          class="font-[600] text-[30px] md:text-[48px] md:leading-[62px] text-[#2F2F2F]"
+        >
           I'm <span class="text-titlesYellow">Ariene Rey</span>.
         </h1>
-        <h1 class="font-[600] text-[48px] leading-[62px] text-[#2F2F2F]">
+        <h1
+          class="font-[600] text-[30px] md:text-[48px] md:leading-[62px] text-[#2F2F2F]"
+        >
           an UI/UX Designer.
         </h1>
       </div>
@@ -77,11 +83,15 @@ export default {
           />
         </svg>
       </div>
-      <div class="flex gap-[2vh]">
+      <div class="flex gap-[2vh] md:flex-row flex-col">
         <Button title="Mail Me" type="mail" />
         <Button title="Download CV" type="download" />
       </div>
     </div>
-    <img class="aspect-[1/1]" src="../../../assets/Image.png" alt="Hero" />
+    <img
+      class="aspect-[1/1] w-[45vw]"
+      src="../../../assets/Image.png"
+      alt="Hero"
+    />
   </div>
 </template>
