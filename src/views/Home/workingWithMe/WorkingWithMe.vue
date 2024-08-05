@@ -11,7 +11,7 @@ export default {
     class="bg-titlesYellow rounded-[25px] flex lg:h-[300px] items-center justify-evenly lg:flex-row flex-col p-[4vh] gap-[3vh]"
   >
     <h1
-      class="font-[600] text-[30px] text-center lg:text-start md:text-[48px] md:leading-[62px] text-[#fff] w-[70%] md:w-[40%] lg:w-1/3"
+      class="font-[600] text-[30px] text-center lg:text-start md:text-[48px] md:leading-[62px] text-[#fff] w-[70%] md:w-[85%] lg:w-1/3"
     >
       Interested working with me?
     </h1>

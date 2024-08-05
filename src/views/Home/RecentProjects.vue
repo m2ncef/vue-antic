@@ -35,7 +35,7 @@ export default {
         >
           UI Portfolio
         </h1>
-        <div class="flex flex-col lg:flex-row gap-[1vh] lg:gap-[10vh]">
+        <div class="flex flex-col lg:flex-row gap-[1vh] lg:gap-[0vh]">
           <h1
             class="font-[500] w-full text-[14px] md:text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
           >
@@ -82,7 +82,7 @@ export default {
         >
           UI Portfolio
         </h1>
-        <div class="flex flex-col lg:flex-row gap-[1vh] lg:gap-[10vh]">
+        <div class="flex flex-col lg:flex-row gap-[1vh] lg:gap-[0vh]">
           <h1
             class="font-[500] w-full text-[14px] md:text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
           >
