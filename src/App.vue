@@ -1,12 +1,12 @@
 <script>
-import Home from "@/views/home/Index.vue";
+import Index from "./views/home/Index.vue";
 export default {
   components: {
-    Home,
+    Index,
   },
 };
 </script>
 
 <template>
-  <Home />
+  <Index />
 </template>
