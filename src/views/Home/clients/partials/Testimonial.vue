@@ -14,7 +14,7 @@
         <img
           src="../../../../assets/Picture Profile.png"
           alt="PP"
-          class="w-[4vw] h-[4vw]"
+          class="w-[5vh] h-[5vh]"
         />
         <div class="flex flex-col">
           <h1 class="text-[#2F2F2F] font-[600] text-[16px] leading-[24px]">
