@@ -8,7 +8,9 @@ export default {
     Button,
   },
   data() {
-    isDesktop: useMediaQuery("(min-width: 768px)");
+    return {
+      isDesktop: useMediaQuery("(min-width: 768px)"),
+    };
   },
 };
 </script>
