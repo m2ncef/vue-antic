@@ -1,9 +1,9 @@
 <template>
   <div
-    class="w-full flex flex-col justify-center items-center gap-[7vh] h-screen md:h-[70vh] xl:h-screen"
+    class="w-full flex flex-col justify-center items-center gap-[7vh] h-[85vh] sm:h-[70vh] xl:h-screen"
   >
     <h1
-      class="font-[600] text-[32px] md:text-[48px] leading-[60px] text-[#fff] md:w-[50%] text-center"
+      class="font-[600] text-[32px] md:text-[48px] leading-[60px] text-[#fff] w-[90%] lg:w-[50%] text-center"
     >
       We Are Loved By Users And Clients Worldwide
     </h1>

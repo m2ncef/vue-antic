@@ -11,9 +11,12 @@ export default {
 </script>
 <template>
   <div
-    class="flex md:flex-row flex-col-reverse items-center gap-[3vh] justify-between"
+    class="flex lg:flex-row flex-col-reverse items-center gap-[3vh] justify-between"
   >
-    <div class="md:w-3/4 flex flex-col items-start gap-[3vh]">
+    <div
+      class="md:w-3/4 flex flex-col items-start gap-[3vh]"
+      style="width: -webkit-fill-available"
+    >
       <p class="text-[24px] leading-[36px] font-[400] text-lightGray">Hey!</p>
       <div>
         <h1
@@ -83,11 +86,15 @@ export default {
           />
         </svg>
       </div>
-      <div class="flex gap-[2vh] sm:flex-row flex-col">
+      <div class="flex gap-[2vh] flex-row">
         <Button title="Mail Me" type="mail" />
         <Button title="Download CV" type="download" />
       </div>
     </div>
-    <img class="w-[42vw]" src="../../../assets/Image.png" alt="Hero" />
+    <img
+      class="w-[50vw] md:w-[42vw]"
+      src="../../../assets/Image.png"
+      alt="Hero"
+    />
   </div>
 </template>

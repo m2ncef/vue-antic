@@ -6,7 +6,7 @@ import RecentProjects from "./RecentProjects/RecentProjects.vue";
 import WhyHireMe from "./whyHireMe/WhyHireMe.vue";
 import WorkingWithMe from "./workingWithMe/WorkingWithMe.vue";
 import Clients from "./clients/Clients.vue";
-import Footer from "./footer/Footer.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   data() {

@@ -1,13 +1,20 @@
-<script></script>
+<script>
+import { useMediaQuery } from "@vueuse/core";
+export default {
+  data() {
+    return {};
+  },
+};
+</script>
 <template>
   <div
-    class="bg-[#E9E9E9] rounded-[45px] flex md:flex-row flex-col gap-[2vh] md:gap-[5vh] xl:gap-[10vh] p-[3vh] md:p-[4vh] xl:p-[10vh]"
+    class="bg-[#E9E9E9] rounded-[45px] flex lg:flex-row flex-col gap-[2vh] md:gap-[4vh] xl:gap-[10vh] p-[3vh] md:p-[4vh] xl:p-[10vh]"
   >
     <img
       src="../../../assets/Image (1).png"
-      class="md:w-[50%] object-cover h-auto rounded-[25px]"
+      class="md:w-[100%] object-cover h-auto rounded-[25px]"
     />
-    <div class="w-full flex flex-col justify-between gap-[4vh] md:gap-[5vh]">
+    <div class="w-full flex flex-col justify-start gap-[4vh] md:gap-[7vh]">
       <div class="flex justify-between flex-col lg:flex-col xl:flex-row">
         <div>
           <h1

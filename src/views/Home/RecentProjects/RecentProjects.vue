@@ -1,8 +1,14 @@
 <script>
+import { register } from "swiper/element/bundle";
+import { useMediaQuery } from "@vueuse/core";
+register();
 import Button from "@/components/Button.vue";
 export default {
   components: {
     Button,
+  },
+  data() {
+    isDesktop: useMediaQuery("(min-width: 768px)");
   },
 };
 </script>
@@ -16,7 +22,7 @@ export default {
       </h1>
       <Button text="View More" />
     </div>
-    <div class="w-full flex justify-between gap-[5vh]">
+    <div class="w-full flex justify-between gap-[2vh] md:gap-[5vh]">
       <div class="w-fit flex flex-col gap-[1vh]">
         <img
           src="../../../assets/recentProjects.png"
@@ -27,9 +33,9 @@ export default {
         >
           UI Portfolio
         </h1>
-        <div class="flex flex-col md:flex-row md:gap-[10vh]">
+        <div class="flex flex-col lg:flex-row gap-[1vh] lg:gap-[10vh]">
           <h1
-            class="font-[500] text-[14px] md:text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
+            class="font-[500] w-full text-[14px] md:text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
           >
             <svg
               width="18"
@@ -46,7 +52,7 @@ export default {
             View Study Case
           </h1>
           <h1
-            class="font-[500] text-[14px] md:text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
+            class="font-[500] w-full text-[14px] md:text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
           >
             <svg
               width="20"
@@ -74,9 +80,9 @@ export default {
         >
           UI Portfolio
         </h1>
-        <div class="flex flex-col md:flex-row md:gap-[10vh]">
+        <div class="flex flex-col lg:flex-row gap-[1vh] lg:gap-[10vh]">
           <h1
-            class="font-[500] text-[14px] md:text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
+            class="font-[500] w-full text-[14px] md:text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
           >
             <svg
               width="18"
@@ -93,7 +99,7 @@ export default {
             View Study Case
           </h1>
           <h1
-            class="font-[500] text-[14px] md:text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
+            class="font-[500] w-full text-[14px] md:text-[16px] leading-[24px] text-[#151517] flex items-center gap-[10px]"
           >
             <svg
               width="20"
