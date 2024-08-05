@@ -1,5 +1,5 @@
 <script>
-import Home from "@/views/home/Home.vue";
+import Home from "./views/home/Home.vue";
 export default {
   components: {
     Home,
