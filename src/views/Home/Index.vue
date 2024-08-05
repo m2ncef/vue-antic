@@ -1,12 +1,12 @@
 <script>
 import NavBar from "../../components/NavBar.vue";
 import HeroSection from "./heroSection/HeroSection.vue";
-import AboutMe from "./aboutMe/AboutMe.vue";
-import RecentProjects from "./RecentProjects/RecentProjects.vue";
-import WhyHireMe from "./whyHireMe/WhyHireMe.vue";
 import WorkingWithMe from "./workingWithMe/WorkingWithMe.vue";
 import Clients from "./clients/Clients.vue";
 import Footer from "@/components/Footer.vue";
+import AboutMe from "../home/AboutMe.vue";
+import RecentProjects from "../home/RecentProjects.vue";
+import WhyHireMe from "../home/WhyHireMe.vue";
 
 export default {
   data() {

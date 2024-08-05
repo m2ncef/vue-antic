@@ -1,8 +1,8 @@
 <script>
-import Image1 from "../../../assets/Image 01.png";
-import Image2 from "../../../assets/Rectangle.png";
-import Image3 from "../../../assets/Rectangle (1).png";
-import Image4 from "../../../assets/Rectangle (2).png";
+import Image1 from "../../assets/Image 01.png";
+import Image2 from "../../assets/Rectangle.png";
+import Image3 from "../../assets/Rectangle (1).png";
+import Image4 from "../../assets/Rectangle (2).png";
 
 export default {
   components: {},

@@ -25,7 +25,7 @@ export default {
     <div class="w-full flex justify-between gap-[2vh] md:gap-[5vh]">
       <div class="w-fit flex flex-col gap-[1vh]">
         <img
-          src="../../../assets/recentProjects.png"
+          src="../../assets/recentProjects.png"
           class="aspect-[540/756] h-[50vw] w-[40vw] object-cover rounded-[25px]"
         />
         <h1
@@ -72,7 +72,7 @@ export default {
       </div>
       <div class="w-fit flex flex-col gap-[1vh]">
         <img
-          src="../../../assets/recentProjects1.png"
+          src="../../assets/recentProjects1.png"
           class="aspect-[540/756] h-[50vw] w-[40vw] object-cover rounded-[25px]"
         />
         <h1

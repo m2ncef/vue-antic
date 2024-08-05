@@ -11,7 +11,7 @@ export default {
     class="bg-[#E9E9E9] rounded-[45px] flex lg:flex-row flex-col gap-[2vh] md:gap-[4vh] xl:gap-[10vh] p-[3vh] md:p-[4vh] xl:p-[10vh]"
   >
     <img
-      src="../../../assets/Image (1).png"
+      src="../../assets/Image (1).png"
       class="md:w-[100%] object-cover h-auto rounded-[25px]"
     />
     <div class="w-full flex flex-col justify-start gap-[4vh] md:gap-[7vh]">
@@ -33,11 +33,7 @@ export default {
             class="font-[600] text-[28px] md:text-[48px] leading-[62px] flex flex-row items-center text-[#2F2F2F]"
           >
             A+
-            <img
-              src="../../../assets/Rating.png"
-              alt="Rating"
-              class="ml-[1vh]"
-            />
+            <img src="../../assets/Rating.png" alt="Rating" class="ml-[1vh]" />
           </h1>
           <p
             class="font-[400] text-[20px] md:text-[24px] leading-[36px] text-[#828282]"
