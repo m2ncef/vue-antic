@@ -13,6 +13,7 @@ export default {
     },
     spacing: {
       desktop: "10vw",
+      gap: "5vh"
     },
     fontFamily: {
       'poppins': ['Poppins', 'sans-serif'],

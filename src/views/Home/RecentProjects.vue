@@ -17,7 +17,10 @@ export default {
 };
 </script>
 <template>
-  <div class="flex flex-col justify-between items-center gap-[5vh]">
+  <div
+    id="projects"
+    class="flex flex-col justify-between items-center gap-[5vh]"
+  >
     <div class="flex gap-[1vh] w-full justify-between items-center">
       <h1
         class="font-[600] text-[32px] md:text-[48px] md:leading-[62px] text-[#151517]"
@@ -29,11 +32,7 @@ export default {
     <div
       class="w-full flex md:flex-row flex-col justify-between gap-[2vh] md:gap-[5vh]"
     >
-      <div
-        class="w-fit flex flex-col gap-[1vh]"
-        v-for="i in [1, 2]"
-        :key="imgPath"
-      >
+      <div class="w-fit flex flex-col gap-[1vh]" v-for="i in [1, 2]" :key="i">
         <img
           src="../../assets/recentProjects.png"
           class="md:w-[40vw] w-[100%] object-cover rounded-[25px]"

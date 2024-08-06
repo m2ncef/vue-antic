@@ -11,6 +11,7 @@ export default {
 </script>
 <template>
   <div
+    id="hero"
     class="flex lg:flex-row flex-col-reverse items-center gap-[3vh] justify-between"
   >
     <div

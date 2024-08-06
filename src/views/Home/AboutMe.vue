@@ -8,15 +8,18 @@ export default {
 </script>
 <template>
   <div
-    class="w-full bg-[#E9E9E9] rounded-[45px] flex xl:flex-row flex-col gap-[2vh] md:gap-[4vh] xl:gap-[5%] p-[10%] md:p-[4vh] xl:p-[5%]"
+    id="aboutme"
+    class="w-full bg-[#E9E9E9] rounded-[45px] flex lg:flex-row flex-col gap-[2vh] md:gap-[4vh] xl:gap-[5%] p-[10%] md:p-[4vh] xl:p-[5%]"
   >
     <img
       src="../../assets/Image (1).png"
       class="w-full lg:w-[45%] xl-w-[30%] object-cover h-auto rounded-[25px]"
     />
-    <div class="md:w-[60%] flex flex-col justify-start gap-[4vh] md:gap-[7vh]">
+    <div
+      class="lg:w-[60%] w-full flex flex-col justify-start gap-[4vh] md:gap-[5vh]"
+    >
       <div
-        class="flex justify-start gap-[inherit] flex-col lg:flex-col xl:flex-row"
+        class="flex justify-start gap-[1vh] md:gap-[inherit] flex-col lg:flex-col xl:flex-row"
       >
         <div>
           <h1
@@ -51,7 +54,7 @@ export default {
           Glad to Help You!
         </h1>
         <p
-          class="font-[400] text-[18px] md:text-[2em] md:leading-[55px] text-[#000] w-full"
+          class="font-[400] text-[18px] md:text-[1.7rem] md:leading-[55px] text-[#000] w-full"
         >
           As a full-service digital designer, I work closely with my clients to
           define, design and develop transformative user experiences across all

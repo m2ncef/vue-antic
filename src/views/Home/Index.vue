@@ -49,18 +49,16 @@ export default {
       {{ element }}
     </a>
   </div>
-  <div class="flex flex-col gap-[3vh] px-desktop">
+  <div class="flex flex-col px-desktop">
     <NavBar @toggle-menu="this.menuOpen = !this.menuOpen" />
-    <div class="flex flex-col gap-[12vh]">
-      <HeroSection />
-      <AboutMe />
-      <RecentProjects />
-      <WhyHireMe />
-      <WorkingWithMe />
-    </div>
+    <HeroSection class="h-[calc(100vh-100px)] mb-gap" />
+    <AboutMe class="my-gap" />
+    <RecentProjects class="my-gap" />
+    <WhyHireMe class="my-gap" />
+    <WorkingWithMe class="my-gap" />
   </div>
-  <div class="flex flex-col items-center pt-[10vh]">
-    <Clients class="bg-[#6FC2C5] px-desktop" />
+  <div class="flex flex-col">
+    <Clients class="bg-[#6FC2C5] px-desktop mt-gap" />
     <Footer class="px-desktop" />
   </div>
 </template>
