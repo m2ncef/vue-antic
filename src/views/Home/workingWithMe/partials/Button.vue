@@ -6,7 +6,7 @@ export default {
 <template>
   <button
     :class="{ isMail: isMail == true }"
-    class="flex bg-transparent border-2 border-[#fff] text-[#fff] gap-[2vh] justify-center items-center rounded-[10px] font-[700] leading-[36px] text-[24px] w-[271px] h-[70px]"
+    class="flex bg-transparent border-2 border-[#fff] text-[#fff] gap-[2vh] justify-center items-center rounded-[10px] font-[700] leading-[36px] md:text-[24px] lg:w-[400px] text-[18px] w-[271px] h-[70px]"
   >
     <svg
       v-if="isMail == true"
@@ -27,6 +27,6 @@ export default {
 
 <style>
 .isMail {
-  @apply !bg-[#fff] !text-[#2F2F2F] !font-[600] !text-[24px] !leading-[36px] !w-[210px];
+  @apply !bg-[#fff] !text-[#2F2F2F] !font-[600] md:!text-[24px] !text-[18px] !leading-[36px] md:!w-[80%] !w-[70%] !h-[70px];
 }
 </style>
