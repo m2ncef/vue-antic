@@ -1,7 +1,7 @@
 <script>
 import { register } from "swiper/element/bundle";
 import { useMediaQuery } from "@vueuse/core";
-import RecentProjects1 from "../../assets/recentProjects1.png";
+import RecentProjects1 from "/src/assets/recentProjects1.png";
 import RecentProjects from "/src/assets/recentProjects.png";
 register();
 import Button from "@/components/Button.vue";
@@ -31,14 +31,11 @@ export default {
     >
       <div
         class="w-fit flex flex-col gap-[1vh]"
-        v-for="imgPath in [
-          '/src/assets/recentProjects.png',
-          '/src/assets/recentProjects.png',
-        ]"
+        v-for="i in [1, 2]"
         :key="imgPath"
       >
         <img
-          :src="imgPath"
+          src="../../assets/recentProjects.png"
           class="md:w-[40vw] w-[100%] object-cover rounded-[25px]"
         />
         <h1
