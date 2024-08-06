@@ -8,11 +8,11 @@ export default {
 </script>
 <template>
   <div
-    class="w-full bg-[#E9E9E9] rounded-[45px] flex lg:flex-row flex-col gap-[2vh] md:gap-[4vh] xl:gap-[5%] p-[10%] md:p-[4vh] xl:p-[5%]"
+    class="w-full bg-[#E9E9E9] rounded-[45px] flex xl:flex-row flex-col gap-[2vh] md:gap-[4vh] xl:gap-[5%] p-[10%] md:p-[4vh] xl:p-[5%]"
   >
     <img
       src="../../assets/Image (1).png"
-      class="w-full md:w-[30%] object-cover h-auto rounded-[25px]"
+      class="w-full lg:w-[45%] xl-w-[30%] object-cover h-auto rounded-[25px]"
     />
     <div class="md:w-[60%] flex flex-col justify-start gap-[4vh] md:gap-[7vh]">
       <div
