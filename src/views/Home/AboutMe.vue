@@ -47,14 +47,14 @@ export default {
           </p>
         </div>
       </div>
-      <div class="flex flex-col gap-[1em] md:gap-[3vh]">
+      <div class="flex flex-col gap-[1em] md:gap-[1vh]">
         <h1
-          class="font-[600] text-[28px] md:text-[48px] md:leading-[62px] text-[#151517]"
+          class="font-[600] text-[28px] md:text-[35px] md:leading-[62px] text-[#151517]"
         >
           Glad to Help You!
         </h1>
         <p
-          class="font-[400] text-[18px] md:text-[1.7rem] md:leading-[55px] text-[#000] w-full"
+          class="font-[400] text-[18px] md:text-[1.5rem] md:leading-[55px] text-[#000] w-full"
         >
           As a full-service digital designer, I work closely with my clients to
           define, design and develop transformative user experiences across all

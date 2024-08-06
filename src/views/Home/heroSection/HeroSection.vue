@@ -12,7 +12,7 @@ export default {
 <template>
   <div
     id="hero"
-    class="flex lg:flex-row flex-col-reverse items-center gap-[3vh] justify-between"
+    class="flex lg:flex-row flex-col-reverse items-center gap-[1vh] md:gap-[3vh] justify-between"
   >
     <div
       class="md:w-3/4 flex flex-col items-start gap-[3vh]"
