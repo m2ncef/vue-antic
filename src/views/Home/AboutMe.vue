@@ -54,7 +54,7 @@ export default {
           Glad to Help You!
         </h1>
         <p
-          class="font-[400] text-[18px] md:text-[1.5rem] md:leading-[55px] text-[#000] w-full"
+          class="font-[400] text-[18px] md:text-[1.5rem] md:leading-[45px] text-[#000] w-full"
         >
           As a full-service digital designer, I work closely with my clients to
           define, design and develop transformative user experiences across all

@@ -51,7 +51,7 @@ export default {
   </div>
   <div class="flex flex-col px-desktop">
     <NavBar @toggle-menu="this.menuOpen = !this.menuOpen" />
-    <HeroSection class="h-[calc(100vh-150px)] my-gap" />
+    <HeroSection class="h-auto md:h-[calc(100vh-150px)]" />
     <AboutMe class="my-gap" />
     <RecentProjects class="my-gap" />
     <WhyHireMe class="my-gap" />

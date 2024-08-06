@@ -6,7 +6,7 @@ export default {
 <template>
   <button
     :class="type == 'download' ? 'download' : 'mail'"
-    class="flex gap-[2vh] justify-center items-center rounded-[10px] font-[700] leading-[24px] text-[16px] w-[151px] h-[55px]"
+    class="flex gap-[2vh] justify-center items-center rounded-[10px] font-[700] leading-[24px] md:text-[16px] text-[14px] md:w-[151px] w-[131px] h-[55px]"
   >
     <svg
       v-if="type == 'mail'"
@@ -43,6 +43,6 @@ export default {
   @apply bg-titlesYellow text-[#fff];
 }
 .download {
-  @apply border-titlesYellow border-2 text-[#2f2f2f] !w-[184px];
+  @apply border-titlesYellow border-2 text-[#2f2f2f] !w-[154px] md:!w-[184px];
 }
 </style>

@@ -15,24 +15,29 @@ export default {
     class="flex lg:flex-row flex-col-reverse items-center gap-[1vh] md:gap-[3vh] justify-between"
   >
     <div
-      class="md:w-3/4 flex flex-col items-start gap-[3vh]"
+      class="md:w-3/4 flex flex-col items-start gap-[1vh] md:gap-[3vh]"
       style="width: -webkit-fill-available"
     >
-      <p class="text-[24px] leading-[36px] font-[400] text-lightGray">Hey!</p>
+      <p class="text-[22px] leading-[36px] font-[400] text-lightGray">Hey!</p>
       <div>
         <h1
-          class="font-[600] text-[30px] md:text-[48px] md:leading-[62px] text-[#2F2F2F]"
+          class="font-[600] text-[26px] md:text-[48px] md:leading-[62px] text-[#2F2F2F]"
         >
           I'm <span class="text-titlesYellow">Ariene &nbsp;Rey</span>.
         </h1>
         <h1
-          class="font-[600] text-[30px] md:text-[48px] md:leading-[62px] text-[#2F2F2F]"
+          class="font-[600] text-[26px] md:text-[48px] md:leading-[62px] text-[#2F2F2F]"
         >
           an UI/UX Designer.
         </h1>
       </div>
-      <img src="../../../assets/Line Vector.png" class="self-center" />
-      <p class="font-normal text-darkGray text-[18px] leading-[30px] w-3/4">
+      <img
+        src="../../../assets/Line Vector.png"
+        class="self-center w-[13rem] md:w-auto"
+      />
+      <p
+        class="font-normal text-darkGray text-[16px] md:text-[18px] leading-[30px] w-full md:w-3/4"
+      >
         UX Designer based in Jakarta, Indonesia.<br />
         I am designing with a minimal and beautiful design in mind.
       </p>
@@ -89,7 +94,9 @@ export default {
           </svg>
         </div>
       </div>
-      <div class="flex gap-[2vh] flex-col lg:flex-row">
+      <div
+        class="flex gap-[2vh] justify-center flex-row sm:flex-col md:flex-row"
+      >
         <Button title="Mail Me" type="mail" />
         <Button title="Download CV" type="download" />
       </div>
